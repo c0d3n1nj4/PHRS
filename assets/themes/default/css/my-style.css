@@ -1,0 +1,170 @@
+/* My additional styles */
+.logo { padding-top:20px !important; }
+ul#new_patients li, ul#users li  { background:none; padding:3px 0; }
+ul#new_patients a, #new_patients a:visited, ul#users a, #users a:visited { font-weight:normal; }
+form#add-patient-form em { color:#f00; }
+table#get-personal-info { font-size:14px; width:100%; }
+dt { float:left !important; width:110px !important; text-align:left !important; }
+fieldset { padding-left:0 !important; }
+dl.submit { text-align:left !important; padding:0 !important; }
+#cancel_add, #cancel_update { color:#f00 !important; }
+#tooltip_img { width:50px; height:auto; }
+#on_off_line_img, #refresh_img, #help_img { vertical-align:middle; }
+#on_off_line_a{ text-decoration:none; font-size:12px; }
+#user_logged { text-transform:capitalize; }
+#no_of_messages { font-weight:bold; }
+.blur { text-shadow: 0px 0px 10px #000000; }
+a.bt_green { float:none !important; margin-left:0; margin-top:20px; }
+.fluid { width:100% !important; }
+.left { float:left }
+.right { float:right }
+.clr { clear:both }
+.pagination { float:none !important; width:100% !important; }
+#custom404 { padding-top:70px; width:645px; margin:0 auto; }
+#home_img { width:25px; vertical-align:middle; }
+#user_group, #contact_new { width:32px; vertical-align:middle; }
+#calendar { margin-left:-5px; }
+#calendar_icon{ width:32px; }
+#calendar .ui-datepicker-inline { width:100% !important; }
+#received { 
+	clear:both; 
+	height:200px; 
+	width:95%; 
+	border:0; 
+	background-color:transparent; 
+	color:#000000; 
+	font:normal 13px Arial !important; 
+	margin-top:15px; 
+	text-align:center;
+	overflow:auto;
+	margin-bottom:10px;
+}
+#received p { 
+	padding:5px;
+}
+#chat_box_text { 
+	height:25px; 
+	width:95%; 
+	border:0; 
+	/* background-color:#31bc86; */
+	background-color:#e9e9e9; 
+	color:#000000; 
+	padding:2px 
+}
+
+/* Opacity of all JQuery Modal dialogs */
+.ui-widget-overlay { 
+	/* background: #310b28 url("../images/stripe_bg.png") !important; */
+	background: #310b28 !important; 
+	opacity:.7 !important; 
+	-moz-opacity: 0.7; 
+	filter:Alpha(Opacity=70); }
+
+/* Personal Info Hide/Show */
+.personal_info_show { 
+	cursor:pointer; 
+	background:url("../images/minus2.gif") no-repeat;
+	display:inline-block;
+	height:11px;
+	width:11px;
+	margin-right:5px;
+	/* border:solid 1px #49bae8; */
+	padding:1px;
+	vertical-align:middle;
+}
+.personal_info_hide{ 
+	cursor:pointer; 
+	background:url("../images/plus2.gif") no-repeat;
+	display:inline-block;
+	height:11px;
+	width:11px;
+	margin-right:5px;
+	/* border:solid 1px #49bae8; */
+	padding:1px;
+	vertical-align:middle;
+}
+#personal_info_container { margin-bottom: 80px; }
+/* /Personal Info Hide/Show */
+
+#add_new_visit_btn, #add_birth_history_btn { margin-top:20px; margin-right:0; }
+/* #add_visit_form dt { width:500px !important; } */
+#add_visit_form dd, #add_birth_history_form dd { width:auto; }
+
+/* Reservations */
+#add_reservations_form {
+	clear:both;
+	margin-top:30px !important;
+	display:none;
+}
+#form_add_reservations {
+	padding:5px 10px
+}
+/* /Reservations */
+
+/* Tabs */
+#tabs {
+	/*jc width: 100%; */
+    height:30px;
+	/*jc border-bottom: solid 1px #CCC; */
+	padding-right: 2px;	
+	margin-bottom: 0px;
+}
+#tabs li {
+    float:left; 
+    list-style:none; 
+    border-top:1px solid #ccc; 
+    border-left:1px solid #ccc; 
+    border-right:1px solid #ccc; 
+    margin-right:5px; 
+    border-top-left-radius:3px;  
+    border-top-right-radius:3px;
+    outline:none;
+	/*jc padding:5px 10px 1px; */
+}
+
+#tabs li a {
+	cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: small;
+    font-weight: bold; 
+    /*jc color: #5685bc; */
+	color: #fff;
+	padding: 5px 10px 8px;
+    display:block; 
+    background: #FFF;
+    border-top-left-radius:3px; 
+    border-top-right-radius:3px; 
+    text-decoration:none;
+    outline:none;  
+	background-color: #eee;
+	background:url("../images/bt_blue_center.gif") repeat-x scroll center center rgba(0, 0, 0, 0);
+}
+#tabs li a.inactive{
+    padding-top:5px;
+    padding-bottom:8px;
+  ``padding-left: 8px;
+ ` `padding-right: 8px;
+    /*jc color:#666666; */
+	color:#fff;
+    background:url("../images/bt_green_center.gif") repeat-x scroll center center rgba(0, 0, 0, 0);
+   `outline:none;
+   `/*jc border-bottom: solid 1px #CCC; */
+}
+#tabs li a:hover, #tabs li a.inactive:hover {
+    color: #5685bc;
+    outline:none;
+}
+.container {
+    clear:both;           
+    width:100%; 
+    /*jc border-left: solid 1px #CCC; */
+    /*jc border-right: solid 1px #CCC; */
+	/*jc border-bottom: solid 1px #CCC; */
+    text-align:left;
+	padding: 20px 10px 10px;
+	background-color: #eee;
+}
+.container h2 { margin-left: 15px;  margin-right: 15px;  margin-bottom: 10px; color: #5685bc; }
+.container p { margin-left: 15px; margin-right: 15px;  margin-top: 10px; margin-bottom: 10px; line-height: 1.3; font-size: small; }
+.container ul { margin-left: 25px; font-size: small; line-height: 1.4; list-style-type: disc; }
+.container li { padding-bottom: 5px; margin-left: 5px; }
