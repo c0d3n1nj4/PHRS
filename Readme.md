@@ -12,3 +12,5 @@ I know this is not the best implementation but can be improved. This system is s
 4. Edit file application/config/config.php for some configurations
 
 u: admin / p: phrs2014
+
+![Screenshot](login.jpg)
